@@ -1,0 +1,40 @@
+.class1 {
+    background-color: rgb(225, 234, 242);
+    
+}
+.class2  {
+   margin-left: 120px;
+   font-size: 16px;
+   margin-bottom: 0px;
+}
+
+.class3 {
+    width: 85%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 115px;
+    border-radius: 20px;
+    
+    
+}
+ h1 {
+    font-size: 50px;  
+}
+.class4 {
+    display: inline-block;
+    text-align: justify;
+}
+.class4 p {
+    color: rgb(148, 185, 218) ;
+}
+hr {
+    width: 70%;
+}
+.class5 {
+    font-size: 40px; 
+    font-display: bold;
+}
+.class6 {
+    font-size: 30px;
+}
+
