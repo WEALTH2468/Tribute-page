@@ -3,17 +3,20 @@
     
 }
 .class2  {
-   margin-left: 120px;
-   font-size: 16px;
+    margin-left: 110px;
+   font-size: 15px;
    margin-bottom: 0px;
+   width: 30px;
+   
 }
 
 .class3 {
-    width: 85%;
+    width: 78%;
     background-color: rgb(255, 255, 255);
     text-align: center;
-    margin-left: 115px;
+    margin-left: 100px;
     border-radius: 20px;
+    
     
     
 }
@@ -23,6 +26,7 @@
 .class4 {
     display: inline-block;
     text-align: justify;
+    width: 50%;
 }
 .class4 p {
     color: rgb(148, 185, 218) ;
@@ -37,4 +41,39 @@ hr {
 .class6 {
     font-size: 30px;
 }
+@media screen and (max-width: 500px) {
+    .class3 {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .class4 {
+        display: inline;
+        text-align: justify;
+        
+    }
+    .class2 {
+        width: 0%;
+        margin-left: 0px; 
+        padding-right: px;  
+    }
+    #table {
+        width: 0%;
+        font-size: 5%;
+        padding-right: 1000px;
+    }
+        
+    }
 
+@media screen and (max-width: 990px) {
+    .class3 {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .class4 {
+        width: 70%;
+    }
+    .class2 {
+        margin-left: 0px;
+        font-size: xx-small;
+    }
+}
